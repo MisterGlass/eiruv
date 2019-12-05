@@ -1,8 +1,3 @@
----
-layout: null
----
-
-{% raw %}<!DOCTYPE html>{% endraw %}
 <html>
 <head>
     <title>Fair Lawn Eruv is currently {{ site.data.eruv_status.status }}</title>
@@ -19,7 +14,8 @@ layout: null
         <div class="eruv {{ site.data.eruv_status.status }}">
                 <h2>The eruv is currently</h2>
                 <h1>{{ site.data.eruv_status.status }}</h1>
-                <p>{{ site.data.eruv_status.details }}</p>
+                <p class="details">{{ site.data.eruv_status.details }}</p>
+                <p class="date">{{ site.data.eruv_status.date }}</p>
         </div>
 </body>
 
