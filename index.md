@@ -2,7 +2,7 @@
 layout: null
 ---
 
-<!DOCTYPE html>
+{% raw %}<!DOCTYPE html>{% endraw %}
 <html>
 <head>
     <title>Fair Lawn Eruv is currently {{ site.data.eruv_status.status }}</title>
