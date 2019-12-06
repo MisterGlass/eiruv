@@ -12,7 +12,7 @@
                 <p class="details">{{ site.data.eruv_status.details }}</p>
                 <p class="date">{{ site.data.eruv_status.date }}</p>
         </div>
-        <button>Show Eruv Map</button>
+        <button onclick="document.getElementById('map_container').style.display = (document.getElementById('map_container').style.display == 'none' ? 'block' : 'none')">Show Eruv Map</button>
         <div id="map_container" style="display: none">
                 <iframe src="https://www.google.com/maps/d/embed?mid=zEtlKkCOSY7c.kt4t89hGddOE" width="640" height="480"></iframe>
         </div>
