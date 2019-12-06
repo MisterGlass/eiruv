@@ -1,16 +1,11 @@
 <html>
 <head>
     <title>Fair Lawn Eruv is currently {{ site.data.eruv_status.status }}</title>
+    <link href="styles.css" rel="stylesheet" media="all">
 </head>
 
 
-<body style = "
-        {% if site.data.eruv_status.status == 'Up' %}
-                background-color: green;
-        {% elsif site.data.eruv_status.status == 'Down' %}
-                background-color: red;
-        {% endif %}
-">
+<body class="status{{ site.data.eruv_status.status }}">
         <div class="eruv {{ site.data.eruv_status.status }}">
                 <h2>The eruv is currently</h2>
                 <h1>{{ site.data.eruv_status.status }}</h1>
