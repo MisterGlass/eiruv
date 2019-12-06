@@ -14,7 +14,7 @@
         </div>
         <button>Show Eruv Map</button>
         <div id="map_container" style="display: none">
-                ADD MAP EMBED HERE
+                <iframe src="https://www.google.com/maps/d/embed?mid=zEtlKkCOSY7c.kt4t89hGddOE" width="640" height="480"></iframe>
         </div>
         <div class="info">
                 <span>The Fair Lawn Eruv is inspected every Friday.</span>
