@@ -18,8 +18,8 @@
         </div>
         <div class="info">
                 <span>The Fair Lawn Eruv is inspected every Friday.</span>
-                <span>For more information you can call our hotline at <a>201-254-9190</a></span>
-                <span>Sign up for our weekly newsletter <a href="mailto:fairlawneruv+subscribe@groups.io">by sending an email with your name in the subject line</a></span>
+                <span>For more information you can call our hotline at <a href="tel:201-254-9190">201-254-9190</a></span>
+                <span><a href="mailto:fairlawneruv+subscribe@groups.io?subject=Please Put Your Name Here">Sign up for our weekly newsletter</a></span>
         </div>
         <div class="shuls">
                 The Fair Lawn Eruv is maintained as a community service by the following synagogues. For more information on a particular synagogue or to arrange a visit to the community, please click on the synagogue’s name below.
@@ -28,6 +28,9 @@
                                 <li><a href="{{ shul.url }}" target="_blank">{{ shul.name }}</a></li>
                         {% endfor %}
                 </ul>
+        </div>
+        <div class="other">
+                <p>Other eruv questions? <a href="mailto:info@fairlawneruv.org">Email the Eruv Inspector</a> or call <a href="tel:201-757-8365">201-757-8365</a></p>
         </div>
 </body>
 </html> 
