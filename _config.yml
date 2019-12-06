@@ -1,0 +1,8 @@
+repository: MisterGlass/eiruv
+
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
