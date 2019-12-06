@@ -4,3 +4,11 @@
 .statusDown {
     background-color: red;
 }
+
+.shuls ul li:first-child {
+    list-style-type: none;
+}
+.shuls ul li {
+    float: left;
+    padding-right: 1.5em;
+}
