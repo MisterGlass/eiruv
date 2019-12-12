@@ -25,6 +25,10 @@ body {
     font-family: Candara, Calibri;
     color: #2B2B2B;
 }
+a, a:visited {
+    color: #0375D8;
+}
+
 .other {
     padding-top: 5px;
     clear: left;
