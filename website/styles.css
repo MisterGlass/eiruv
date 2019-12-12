@@ -1,18 +1,88 @@
-.statusUp {
-    background-color: green;
-}
-.statusDown {
-    background-color: red;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
 
-.shuls ul li:first-child {
-    list-style-type: none;
-}
-.shuls ul li {
-    float: left;
-    padding-right: 1.5em;
+
+
+body {
+    font-family: Candara, Calibri;
+    color: #2B2B2B;
 }
 .other {
     padding-top: 5px;
     clear: left;
  }
+
+.main {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.statusUP .main {
+    background-color: #E3F9E8;
+}
+.statusDOWN .main {
+    background-color: #FEC3C3;
+}
+.eruv h2 {
+    font-size: 28pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.eruv h3 {
+    font-size: 25pt;
+    font-weight: normal;
+}
+.eruv h1 {
+    font-size: 28pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.statusUP .eruv h1 {
+    color: #005213;
+}
+.statusDOWN .eruv h1 {
+    color: #80001E;
+}
+
+
+footer {
+    font-size: 16pt;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer div {
+    max-width: 550px;
+    min-width: 300px;
+    position: relative;
+}
+footer .shuls ul li {
+    list-style-type: none;
+    display: block;
+}
+footer .copyright {
+    position: absolute;
+    bottom: 2px;
+    white-space: nowrap;
+}
+
