@@ -14,10 +14,10 @@
                         <h2>Fair Lawn Eruv</h2>
                         <h3>The Eruv Is:</h3>
                         <h1>{{ site.data.eruv_status.status }}</h1>
-                        <p class="details">{{ site.data.eruv_status.details }}</p>
-                        <p class="date">The last inspection was completed on: <strong>{{ site.data.eruv_status.date }}</strong></p>
+                        <div class="details">{{ site.data.eruv_status.details }}</div>
+                        <div class="date">The last inspection was completed on: <strong>{{ site.data.eruv_status.date }}</strong></div>
                 </div>
-                <button onclick="document.getElementById('map_container').style.display = (document.getElementById('map_container').style.display == 'none' ? 'block' : 'none')">Show Eruv Map</button>
+                <button onclick="document.getElementById('map_container').style.display = (document.getElementById('map_container').style.display == 'none' ? 'block' : 'none')">View Eruv Map</button>
                 <div id="map_container" style="display: none">
                         <iframe src="https://www.google.com/maps/d/embed?mid=zEtlKkCOSY7c.kt4t89hGddOE" width="640" height="480"></iframe>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="info">
                         <p>The Fair Lawn Eruv is inspected every Friday.</p>
                         <p>Fair Lawn Eruv Hotline: <a href="tel:201-254-9190">201-254-9190</a></p>
-                        <p>Other eruv questions? <a href="mailto:info@fairlawneruv.org">Email the Eruv Inspector</a> or call <a href="tel:201-757-8365">201-757-8365</a></p>
+                        <p>Other eruv questions?<br />Email the <a href="mailto:info@fairlawneruv.org">Eruv Inspector</a> or call <a href="tel:201-757-8365">201-757-8365</a></p>
                 </div>
                 <div class="subscribe">
                         <p><a href="mailto:fairlawneruv+subscribe@groups.io?subject=Please Put Your Name Here">Sign up for our weekly newsletter</a></p>

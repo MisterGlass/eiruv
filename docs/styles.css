@@ -24,9 +24,15 @@ time, mark, audio, video {
 body {
     font-family: Candara, Calibri;
     color: #2B2B2B;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 a, a:visited {
     color: #0375D8;
+}
+strong {
+    font-weight: bold;
 }
 
 .other {
@@ -40,25 +46,48 @@ a, a:visited {
     text-align: center;
 }
 
+.main {
+    background-color: #F9F8E3;
+    flex: 1 0 auto;
+}
 .statusUP .main {
     background-color: #E3F9E8;
 }
 .statusDOWN .main {
     background-color: #FEC3C3;
 }
+.main button {
+    width: 148px;
+    height: 32px;
+    background: #0375D8 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    font: Bold 16px/30px Candara;
+    color: #FFFFFF;
+    border: none;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.eruv {
+    padding: 32px;
+    font-size: 16px;
+}
 .eruv h2 {
-    font-size: 28pt;
+    font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 .eruv h3 {
-    font-size: 25pt;
+    font-size: 25px;
     font-weight: normal;
 }
 .eruv h1 {
-    font-size: 28pt;
+    font-size: 28px;
     font-weight: bold;
     text-transform: uppercase;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 .statusUP .eruv h1 {
     color: #005213;
@@ -66,23 +95,43 @@ a, a:visited {
 .statusDOWN .eruv h1 {
     color: #80001E;
 }
+.eruv strong {
+    display: block;
+}
 
+#map_container {
+    padding: 32px;
+}
 
 footer {
-    font-size: 16pt;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    background-color: white;
+    flex-shrink: 0;
+}
+footer p {
+    font-size: 16px;
 }
 footer div {
     max-width: 550px;
     min-width: 300px;
     position: relative;
+    margin: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+footer .shuls ul {
+    padding-top: 16px;
 }
 footer .shuls ul li {
     list-style-type: none;
     display: block;
+}
+footer .info p {
+    padding-bottom: 16px;
 }
 footer .copyright {
     position: absolute;
