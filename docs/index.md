@@ -37,8 +37,8 @@
                         <p>Other eruv questions?<br />Email the <a href="mailto:info@fairlawneruv.org">Eruv Inspector</a> or call <a href="tel:201-757-8365">201-757-8365</a></p>
                 </div>
                 <div class="subscribe">
-                        <p><a href="mailto:fairlawneruv+subscribe@groups.io?subject=Please Put Your Name Here">Sign up for our weekly newsletter</a></p>
-                        <p class="copyright">&copy; {{ 'now' | date: "%Y" }} Fair Lawn Eruv. All Rights Reserved.</p>
+                        <p><a href="mailto:fairlawneruv+subscribe@groups.io?subject=Please Put Your Name Here">Subscribe tot he Weekly Eruv Update</a></p>
+                        <p class="copyright">&copy; {{ 'now' | date: "%Y" }} Fair lawn eruv. All rights reserved.</p>
                 </div>
         </footer>
 </body>

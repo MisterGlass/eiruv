@@ -64,7 +64,7 @@ strong {
     font: Bold 16px/30px Candara;
     color: #FFFFFF;
     border: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
     margin-bottom: 16px;
 }
 
@@ -117,7 +117,7 @@ footer p {
 }
 footer div {
     max-width: 550px;
-    min-width: 300px;
+    width: 100%;
     position: relative;
     margin: 16px;
     margin-top: 32px;
@@ -133,9 +133,13 @@ footer .shuls ul li {
 footer .info p {
     padding-bottom: 16px;
 }
-footer .copyright {
+footer .subscribe {
+    min-height: 60px;
+}
+footer .subscribe .copyright {
     position: absolute;
     bottom: 2px;
     white-space: nowrap;
+    text-transform: capitalize;
 }
 
