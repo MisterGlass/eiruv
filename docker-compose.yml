@@ -7,5 +7,5 @@ services:
     ports:
       - "127.0.0.1:4000:4000"
     volumes:
-      - ./website:/usr/src/app
+      - ./docs:/usr/src/app
     tty: true
