@@ -6,7 +6,7 @@
     <title>Fair Lawn Eruv is currently {{ site.data.eruv_status.status }}</title>
     <link href="styles.css" rel="stylesheet" media="all">
     <link rel="icon" type="image/png" href="favicon.png">
-    <link href="https://fonts.googleapis.com/css?family=Changa+One|Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 
