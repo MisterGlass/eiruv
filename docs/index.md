@@ -5,7 +5,7 @@
 <head>
     <title>Fair Lawn Eruv is currently {{ site.data.eruv_status.status }}</title>
     <link href="styles.css" rel="stylesheet" media="all">
-    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png">
 </head>
 
 
