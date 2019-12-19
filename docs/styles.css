@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 
 body {
-    font-family: Candara, Calibri;
+    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
     color: #2B2B2B;
     display: flex;
     flex-direction: column;
@@ -57,8 +57,6 @@ strong {
     background-color: #FEC3C3;
 }
 .main button {
-    width: 148px;
-    height: 32px;
     background: #0375D8 0% 0% no-repeat padding-box;
     border-radius: 4px;
     font: Bold 16px/30px Candara;
