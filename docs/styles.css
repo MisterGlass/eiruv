@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
     color: #2B2B2B;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@ h1, h2, h3 {
 .main button {
     background: #0375D8 0% 0% no-repeat padding-box;
     border-radius: 4px;
-    font: Bold 16px/30px Candara;
+    font: Bold 16px/30px;
     color: #FFFFFF;
     border: none;
     text-transform: uppercase;
