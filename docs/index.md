@@ -20,7 +20,7 @@
                 </div>
                 <button onclick="document.getElementById('map_container').style.display = (document.getElementById('map_container').style.display == 'none' ? 'block' : 'none')">View Eruv Map</button>
                 <div id="map_container" style="display: none">
-                        <iframe src="https://www.google.com/maps/d/embed?mid=1iF-7pT11IJHL9EPtOWFo0aYljwk" width="640" height="480"></iframe>
+                        <iframe src="https://www.google.com/maps/d/embed?mid=1iF-7pT11IJHL9EPtOWFo0aYljwk?zoom=8" width="640" height="480"></iframe>
                 </div>
         </div>
         <footer>
