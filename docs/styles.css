@@ -22,7 +22,7 @@ time, mark, audio, video {
 
 
 body {
-    font-family: Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #2B2B2B;
     display: flex;
     flex-direction: column;
@@ -33,6 +33,9 @@ a, a:visited {
 }
 strong {
     font-weight: bold;
+}
+h1, h2, h3 {
+    font-family: 'Changa One', cursive;
 }
 
 .other {
