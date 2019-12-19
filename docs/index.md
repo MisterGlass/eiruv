@@ -25,7 +25,7 @@
         </div>
         <footer>
                 <div class="shuls">
-                        The Fair Lawn Eruv is maintained as a community service by the following synagogues. For more information on a particular synagogue or to arrange a visit to the community, please click on the synagogue’s name below.
+                        <p>The Fair Lawn Eruv is maintained as a community service by the following synagogues. For more information on a particular synagogue or to arrange a visit to the community, please click on the synagogue’s name below.</p>
                         <ul>
                                 {% for shul in site.data.shuls %}
                                         <li><a href="{{ shul.url }}" target="_blank">{{ shul.name }}</a></li>
