@@ -62,7 +62,9 @@ h1, h2, h3 {
 .main button {
     background: #0375D8 0% 0% no-repeat padding-box;
     border-radius: 4px;
-    font: Bold 16px/30px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 15px;
     color: #FFFFFF;
     border: none;
     text-transform: uppercase;
