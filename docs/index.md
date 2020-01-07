@@ -35,7 +35,7 @@
                 </div>
                 <div class="info">
                         <p>The Fair Lawn Eruv is inspected every Friday.</p>
-                        <p>Fair Lawn Eruv Hotline: <a href="tel:201-254-9190">201-254-9190</a></p>
+                        <p>Fair Lawn Eruv Hotline: <a href="tel:‪201-429-7066‬">‪201-429-7066</a></p>
                         <p>Other eruv questions?<br />Email the <a href="mailto:info@fairlawneruv.org">Eruv Inspector</a> or call <a href="tel:201-757-8365">201-757-8365</a></p>
                 </div>
                 <div class="subscribe">
