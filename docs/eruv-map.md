@@ -1,6 +1,8 @@
 <html>
 <head>
- <meta http-equiv="refresh" content="2;url=https://www.fairlawneruv.com/"/>
+ <script type="text/javascript">
+  window.location.replace("https://www.fairlawneruv.com");
+ </script>
  <title>test dummy page</title>
 </head>
 <body>
