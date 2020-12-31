@@ -123,6 +123,7 @@ footer div {
     margin: 16px;
     margin-top: 32px;
     margin-bottom: 32px;
+    max-width: 40%;
 }
 footer .shuls p {
     max-width: 550px;
