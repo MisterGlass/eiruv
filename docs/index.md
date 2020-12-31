@@ -37,7 +37,7 @@
                 <div class="info">
                         <p>The Fair Lawn Eruv is inspected every Friday.</p>
                         <p>Fair Lawn Eruv Hotline: <a href="tel:‪201-429-7066‬">‪201-429-7066</a></p>
-                        <p>For halachic questions regarding the Eruv, please feel free to contact Rabbi Belizon or any of the local Rabbonim.</p>
+                        <p>For halachic questions regarding the Eruv, please feel free to contact Rabbi Belizon at <a href="tel:516-382-7596">516-382-7596</a> or any of the local Rabbonim.</p>
                         <p>Please be advised that the Eruv Chatzerot for the Eruv is located in the office of Rabbi Markowitz in Shomrei Torah.</p>
                         <p>Other eruv questions?<br />Email the <a href="mailto:info@fairlawneruv.org">Eruv Inspector</a> or call <a href="tel:201-757-8365">201-757-8365</a></p>
                 </div>
