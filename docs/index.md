@@ -14,7 +14,6 @@
         <div class="main">
                 <div class="eruv {{ site.data.eruv_status.status }}">
                         <h2>Fair Lawn Eruv</h2>
-                        <h3 style="color:red">The RCBC has made the decision to adopt social distancing policies to help slow the spread of COVID-19. <br> <a href="./RCBC.Letter.March.12.2020.pdf">Please read the full notice here for more information</a></h3>
                         <h3>The Eruv Is:</h3>
                         <h1>{{ site.data.eruv_status.status }}</h1>
                         <div class="details">{{ site.data.eruv_status.details }}</div>
